@@ -61,7 +61,7 @@ export class ScrollFixedNavDirective implements AfterViewInit {
       throw `
         Use 'scroll-fixed-nav' directive;
 
-        eg: <div id='scrollNav' [scrollTop]='/** your margin top **/' [fixedClass]='/** your class **/'>
+        eg: <div id='scrollNav' [scrollTop]='/** your scrollTop to fixed **/' [fixedClass]='/** your fixed class **/'>
               <div scroll-fixed-nav>
                   /** your nav **/
               </div>
