@@ -6,7 +6,8 @@ Use 'scroll-fixed-nav' directive;
 ```html
   <div id='sfNavWrapper'>
     <div scroll-fixed-nav [scrollTop]='80' fixedClass='fixed'>
-      /*your nav*/
+      /*your fixed elements*/
     </div>
   </div>
 ```
+
