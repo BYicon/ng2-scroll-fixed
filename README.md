@@ -4,9 +4,9 @@ Use 'scroll-fixed-nav' directive;
 
 # eg
 ```html
-    <div id='scrollNav' [scrollTop]='/** your scrollTop to fixed **/' [fixedClass]='/** your fixed class **/'>
-          <div scroll-fixed-nav>
-              /** your nav **/
-          </div>
+  <div id='sfNavWrapper'>
+    <div scroll-fixed-nav [scrollTop]='80' fixedClass='fixed'>
+      /*your nav*/
     </div>
+  </div>
 ```
